@@ -1,0 +1,24 @@
+{
+  "name": "webpack5-pug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takashiyamaguchi/webpack5-pug.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/takashiyamaguchi/webpack5-pug/issues"
+  },
+  "homepage": "https://github.com/takashiyamaguchi/webpack5-pug#readme",
+  "devDependencies": {
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
