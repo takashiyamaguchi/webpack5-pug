@@ -37,10 +37,24 @@ module.exports = {
             loader: 'css-loader',
             options: {
               sourceMap: true,
+              importLoaders: 2,
+            },
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              postcssOptions: {
+                plugins: [
+                  ['autoprefixer', {grid: true}],
+                ],
+              },
             },
           },
           {
             loader: 'sass-loader',
+            options: {
+              sourceMap: true,
+            },
           },
         ],
       },
@@ -81,6 +95,7 @@ module.exports = {
       }
     ],
   },
+  target: ['web', 'es5'],
   plugins: [
     new MiniCssExtractPlugin({
       filename: './css/main.css',
