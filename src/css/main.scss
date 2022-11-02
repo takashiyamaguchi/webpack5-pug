@@ -1,4 +1,11 @@
 body {
+  outline: 1px solid blue;
   color: lightblue;
   display: grid;
+}
+h1 {
+  outline: 1px solid red;
+  width: 30%;
+  display: block;
+  font-size: 1000px;
 }
